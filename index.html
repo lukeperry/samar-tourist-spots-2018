@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Xompatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/modernizr.custom.js"></script>		
+		<link rel="stylesheet" type="text/css" href="css/component.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+		<title>Home</title>
+		<script>
+				var myVar = setInterval(myTimer, 1);
+				function myTimer() {
+			var dt = new Date();
+			document.getElementById("datetime").innerHTML = dt.toLocaleString();
+				}
+		</script>
+	</head>
+	
+	<body>
+		 <!--Header-->
+		 <div id="title-header">
+			<div id="title"><img src="images/logo/sns-logo.png" class="logo"><p>Date/Time:</br> <span id="datetime"></span></p>
+			Tourist Spots in Samar</br>2018 Senior High School Expo
+			
+			</div>
+		</div>
+		
+		<div id="mySidenav" class="sidenav">
+				<a href="index.html" id="home">Home</a>
+				<a href="places.html" id="placess">Places</a>
+				<a href="about.html" id="about">About</a>
+				</div>
+			
+
+		<div class="slider">
+			<figure>
+				<div class="slide">
+					<img src="images/slider/slide-1.png">
+				</div>
+				<div class="slide">
+					<img src="images/slider/slide-2.jpg">
+				</div>
+				<div class="slide">
+					<img src="images/slider/slide-3.jpg">
+				</div>
+				<div class="slide">
+					<img src="images/slider/slide-4.jpg">
+				</div>
+				<div class="slide">
+					<img src="images/slider/slide-5.jpg">
+				</div>	
+			</figure>
+		</div>
+
+		<div class="imgbox">
+			<h1>Top Tourist Destinations</h1>
+			<div class="container">
+				<img src="images/samar-archeo/samar-archeo1.jpg" class="image">
+				<button class="md-trigger" data-modal="samar-archeo">Samar Archeological Museum</button>
+			</div>
+			<div class="container">
+				<img src="images/sohoton/sohoton1.jpg" class="image">
+				<button class="md-trigger" data-modal="sohoton">Sohoton Cave</button>					
+			</div>	
+			<div class="container">
+				<img src="images/bangon/bangon1.jpg" class="image">
+				<button class="md-trigger" data-modal="bangon">Bangon-Bugtong Falls</button>
+			</div>
+			<div class="container">
+				<img src="images/guiuan-church/guiuan-church1.jpg" class="image">
+				<button class="md-trigger" data-modal="guiuan-church">Guiuan Church</button>
+			</div>
+			<div class="container">
+				<img src="images/ulot-river/ulot-river1.jpg" class="image">
+				<button class="md-trigger" data-modal="ulot-river">Ulot River</button>
+			</div>
+			<div class="container">
+				<img src="images/mgrand/mgrand1.jpg" class="image">
+				<button class="md-trigger" data-modal="mgrand">MGrand Royale Resort</button>
+			</div>
+			<div class="container">
+				<img src="images/quarry/quarry1.jpg" class="image">
+				<button class="md-trigger" data-modal="quarry">Quarry Cold Spring</button>
+			</div>
+			<div class="container">
+				<img src="images/san-juanico/san-juanico1.jpg" class="image">
+				<button class="md-trigger" data-modal="san-juanico">San Juanico Bridge</button>
+			</div>
+		</div>
+
+
+	
+		<!--Infos-->
+		<div class="md-modal md-effect-13" id="samar-archeo">
+			<div class="md-content">
+				<h3>Samar Archeological Museum and Research Center</h3>
+				<div>	
+					<p>
+						Opened on April 11, 1970, it is the first and only museum in 
+						Samar island. A collection of archaeological artifacts including 
+						burial jars and covers, log coffin, jarlets, cups, howls, saucers,
+						and dishes dating back to the 14th century; coins, heirlooms, old 
+						household items, relegious items such as saints, altar, clalices
+						and monstrance.
+					</p>
+					<button class="md-close">Close</button>
+					<button><a href="places.html#samar-archeo">See More</a></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="md-modal md-effect-13" id="sohoton">
+			<div class="md-content">
+				<h3>Sohoton Cave</h3>
+				<div>
+					<p>
+						a lot would confuse this with Sohoton Cove in Surigao. 
+						We'll get there someday but for now, I'll be talking about the Sohoton 
+						Cave in Basey, Samar which is just a few KMs away from my place 
+						(Tacloban City). During my college days, it was very popular in our town
+						but I wasn't able to go there until now. Whew, finally after so many years
+					</p>
+						<button class="md-close">Close</button>
+						<button><a href="places.html#sohoton">See More</a></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="md-modal md-effect-13" id="bangon">
+			<div class="md-content">
+				<h3>Bangon-Bugtong Falls</h3>
+				<div>
+					<p>
+						Bangon-Bugtong Falls is located in Barangay San Joaquin, Calbayog City, Samar.
+						Calbayog City also called the “City of Waterfalls” because there are more than
+						20 waterfalls in the area. One of those is the Bangon-Bugtong Falls.Bangon-Bugto
+						ng Falls has an estimated height of 60 meters. It is a system of cascades that
+						you need to walk on to get to the main falls. Like any other waterfall, it has
+						some slippery parts covered with moss so you have to be careful in your ascent.
+						At the topmost part is a circular pond about 30 meters in diameter which is
+						wide enough for swimming and deep enough for diving.
+					</p>
+						<button class="md-close">Close</button>
+						<button><a href="places.html#bangon">See More</a></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="md-modal md-effect-13" id="guiuan-church">
+			<div class="md-content">
+				<h3>Guiuan Church</h3>
+				<div>
+					<p>
+						The Immaculate Conception Parish Church (Spanish: Iglesia Parroquial de la Inmaculada 
+						Concepción), commonly known as Guiuan Church, is a Roman Catholic church in the 
+						municipality of Guiuan, Eastern Samar, Philippines, within the jurisdiction of the 
+						Diocese of Borongan.The church is classified as a National Cultural Treasure by the 
+						National Museum of the Philippines. It was formerly nominated to the UNESCO World 
+						Heritage Sites of the Philippines under two categories, the Baroque Churches of the 
+						Philippines (Extension) and the Jesuit Churches of the Philippines.It was totally 
+						destroyed when Typhoon Haiyan (locally named as Yolanda) made landfall in Guiuan and 
+						struck other parts of Central Visayas on November 8, 2013.
+					</p>
+						<button class="md-close">Close</button>
+						<button><a href="places.html#guiuan-church">See More</a></button>
+				</div>
+				</div>
+		</div>
+
+		<div class="md-modal md-effect-13" id="ulot-river">
+			<div class="md-content">
+				<h3>Ulot River</h3>
+					<div>
+						<p>
+							The Ulot River is the longest river in Samar spanning 90km. The headwater starts at
+							San Jose de Buan in Western Samar, passing downstream through Paranas and finally 
+							Can Avid in Eastern Samar. The jump-off point for the Ulot River Torpedo Extreme Boat
+							Adventure is at Samar Island Natural Park (SINP) headquarters at Sitio Camp Uno, Brgy.
+							Tenani, Paranas. There are actually so many names and organizations concerned here. Even
+							the term TORPEDO is derived from Tenani Boat Operators for River Protection and Environmental
+							Development Organization.
+						</p>
+						<button class="md-close">Close me!</button>
+						<button><a href="places.html#ulot-river">Read More</a></button>
+					</div>
+			</div>
+		</div>
+
+		<div class="md-modal md-effect-13" id="mgrand">
+			<div class="md-content">
+				<h3>M Grand Royale Resort</h3>
+					<div>
+						<p>
+							What a beautiful Hotel overlooking the entire ocean view Bay area of Catbalogan Samar Philippines.
+							Gorgeous swimming pool with a casual restaurant overlooking it. The food is fabulous specially the
+							Asian curry styles and Sea food. It is the only huge Hotel in Catbalogan with a magnificent convention
+							center banquet hall also adopting sustainable Tourism means . Warm staff headed by a very dedicated
+							lady owner Ms. Cinco who personally showed us around the bay Hills areas. You are bound to have a 
+							successful conference at this welcoming warm resort with a team of professionals who assist you at 
+							every step offering an excellent menu with huge crabs and shrimps for the conference menus with an
+							array of savoury offerings through out the sessions making the gathering so worth it. It is truly
+							World class.</br></br><em>@ElsieGabriel|TripAdvisor</em>
+						</p>	  
+						<button class="md-close">Close</button>
+						<button><a href="places.html#mgrand">See More</a></button>
+					</div>
+				</div>
+		</div>
+
+		<div class="md-modal md-effect-13" id="quarry">
+			<div class="md-content">
+				<h3>Quarry Cold Spring Resort</h3>
+					<div>
+						<p>
+							Quarry Cold Spring Resort, Hinabangan Samar is a swimming pool or beach on Hinabangan Samar in Hinabangan.
+							Quarry Cold Spring Resort is located at Brgy.Malihao, Hinabangan, Samar. They have a cold spring and a newly
+							built hotel for overnight.
+						</p>
+						<button class="md-close">Close</button>
+						<button><a href="places.html#quarry">See More</a></button>
+					</div>
+			</div>
+		</div>
+
+		<div class="md-modal md-effect-13" id="san-juanico">
+			<div class="md-content">
+				<h3>San Juanico Bridge</h3>
+					<div>
+						<p>
+							San Juanico Bridge (Filipino: Tulay ng San Juanico) is part of the Pan-Philippine Highway and 
+							stretches from Samar to Leyte across the San Juanico Strait in the Philippines. Its longest le
+							ngth is a steel girder viaduct built on reinforced concrete piers, and its main span is of an 
+							arch-shaped truss design. With a total length of 2.16 kilometers (1.34 mi), it is the longe
+							st bridge in the Philippines spanning a body of seawater, while the Candaba Viaduct (The longest
+							bridge in the Philippines in all category) in Pampanga is under the viaduct category along the 
+							North Luzon Expressway - making the San Juanico Bridge the second longest bridge in the Philippines 
+							in all category.
+						</p>
+						<button class="md-close">Close</button>
+						<button><a href="places.html#san-juanico">See More</a></button>
+					</div>
+			</div>
+		</div>	
+		
+		<audio autoplay loop>
+			<source src="song.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+						
+		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="js/cssParser.js"></script>
+		<script src="js/css-filters-polyfill.js"></script>																																																																																																			
+	</body>
+	
+	</html>
